@@ -23,23 +23,23 @@ body {
 
 .doraemon {
     width: 400px;
+    height: 400px;
     border: 1px solid #1B94DD;
     position: absolute;
     left: 50%;
     margin-left: -200px;
     top: 200px;
-
+    overflow: hidden;
 }
 
 .doraemon .catHead {
-    width: 395px;
+    width: 388px;
     height: 1235px;
     border: 2px solid black;
-    border-radius: 185px / 350px;
+    border-radius: 185px / 371px;
     border-left-color: transparent;
     border-right-color: transparent;
     border-bottom-color: transparent;
-    overflow: hidden;
 }
 
 .doraemon .catHead .eye {
